@@ -36,9 +36,35 @@ header {
     font-family: 'Sawarabi Gothic', sans-serif;
 }
 
-#jikos {
-    padding:10px;
-    background-color: gray;
+#myimage{
+    margin-top:10px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.prof{
+    float: left;
+}
+
+#proftext{
+    word-break: break-all;
+}
+
+#myname{
+    vertical-align:top;
+    word-break: break-all;
+    margin-left:4px;
+    font-size: 40px;
+}
+
+#jikos{
+
+    margin:10px;
+    position:absolute;
+    width:30%;
+    height:600px;
+    background-color: white;
+    right:0px;
 }
 
 .toptext {
