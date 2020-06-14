@@ -23,6 +23,16 @@
     transition-duration: 0.5s;
 }
 
+#headlist li:hover{
+    opacity:0.5;
+    transition-duration: 0.5s;
+}
+
+#headlist li{
+    opacity:1;
+    transition-duration: 0.5s;
+}
+
 @font-face {
 	font-family: 'nicomoji';
     src: url(fonts/nicomoji-plus_1.11.ttf);
@@ -36,6 +46,8 @@ header {
     display: inline-block;
     margin-left: 10px;
     font-size:30px;
+    
+    align-items: center;
     font-family: "nicomoji";
 }
 
@@ -51,7 +63,7 @@ header {
 #headlist li{
     display: inline-block; 
     margin:0px 10px;
-    line-height:50px;
+    
     font-size:20px;
     font-family: 'Sawarabi Gothic', sans-serif;
 }
