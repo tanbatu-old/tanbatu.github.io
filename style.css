@@ -1,16 +1,18 @@
 *{
     margin:0px;
     padding:0px;
-
+    
     
 }
 
+p{
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+h1{
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
 .main{
     height:100vh;
-    background-image: url(https://cdn.pixabay.com/photo/2020/04/17/19/08/minecraft-5056545_960_720.jpg);
-    background-size: cover;
-    
-    background-color: rgba(0,0,0,.5);
 }
 
 .icon{
@@ -39,6 +41,8 @@
 @font-face {
 	font-family: 'nicomoji';
     src: url(fonts/nicomoji-plus_1.11.ttf);
+  font-family:'icon';
+    src: url(fonts/icofont.ttf);
     
 }
 
@@ -82,11 +86,11 @@ header {
 }
 #page_top{
     background-color:rgba(0, 0, 0,0.3);
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.7);
+    background-image: url(d:/js/_projects/about.me/image/bg.png);
+    background-size: cover;
     color:white;
     top:0px;
     line-height:50px;
-    
 }
 
 header {
@@ -150,9 +154,13 @@ header {
     transition: .3s ease-in-out;
   }
 
+  .menuicon{
+    display: inline-block;
+  }
   #nav-menu{
     position:absolute;
-    margin:10px;
+    margin:0px 10px;
+    color:black;
     width:100%;
     top:50px;
   }
@@ -161,6 +169,7 @@ header {
   #nav-content {
     overflow: auto;
     position: fixed;
+    line-height:normal;
     top: 0;
     left: 0;
     z-index: 100;
