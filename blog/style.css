@@ -15,6 +15,7 @@ h1{
     height:100vh;
 }
 
+
 .icon{
     color:white;
     height:50px;
@@ -38,9 +39,14 @@ h1{
     transition-duration: 0.5s;
 }
 
+
+
+@font-face{
+  font-family: 'nicomoji';
+    src: url(../fonts/VAG.ttf);
+}
+
 @font-face {
-	font-family: 'nicomoji';
-    src: url(fonts/nicomoji-plus_1.11.ttf);
   font-family:'icon';
     src: url(fonts/icofont.ttf);
     
@@ -59,7 +65,7 @@ header {
 }
 
 #titletext a{
-    color : white;
+    color : black;
     text-decoration: none;
 }
 
@@ -81,14 +87,13 @@ header {
 }
 
 #headlist li a{
-    color : white;
+    color : #5f6368;
     text-decoration: none;
 }
 #page_top{
-    background-color:rgba(0, 0, 0,0.3);
-    background-image: url(d:/js/_projects/about.me/image/bg.png);
+    background-color:white;
     background-size: cover;
-    color:white;
+    color:black;
     top:0px;
     line-height:50px;
 }
@@ -128,15 +133,15 @@ header {
   }
   #nav-open span:nth-of-type(1) {
     top: -2px;
-    background-color:white;
+    background-color:#5f6368;
   }
   #nav-open span:nth-of-type(2) {
     top: 7px;
-    background-color:white;
+    background-color:#5f6368;
   }
   #nav-open span:nth-of-type(3) {
     top: 16px;
-    background-color:white;
+    background-color:#5f6368;
   }
   
   
