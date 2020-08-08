@@ -66,11 +66,12 @@ header {
     font-size:30px;
     
     align-items: center;
-    font-family: "nicomoji";
+    
 }
 
 #titletext a{
     color : black;
+    font-family: "nicomoji";
     text-decoration: none;
 }
 
